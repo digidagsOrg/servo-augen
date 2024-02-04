@@ -28,3 +28,9 @@ input.onButtonPressed(Button.B, function () {
 })
 MotorDriver.ServoTurnAngle(Servo.S0, 0)
 MotorDriver.ServoTurnAngle(Servo.S1, 0)
+basic.pause(2000)
+MotorDriver.ServoStop(Servo.S0)
+MotorDriver.ServoStop(Servo.S1)
+basic.forever(function () {
+	
+})
