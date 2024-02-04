@@ -1,0 +1,27 @@
+{
+    "name": "Servo augen",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-Motor": "github:waveshare/pxt-Motor#7a0795114409e1c3246cec2e7ea2a20aeabb3c41"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "documentation": "/projects/servo-calibrator"
+}
